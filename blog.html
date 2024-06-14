@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ImmerseVietnam</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Immerse<span>Vietnam</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Blog</h1>
+                    <p>Reviews of the magneficent sight-seeing in Vietnam</p>
+                </div>
+            </div>
+            <div class="player">
+                <video autoplay muted loop preload="auto" id="bg-videos"> <source src="videos/blogcover.mp4" type="video/mp4"></video>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- blog section -->
+        <section id = "blog" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <h2 class = "sm-title">read these blog for information</h2>
+                    <h3 class = "lg-title">recent blog</h3>
+                </div>
+
+                    <div class = "blog-row">
+                        <div class = "blog-item my-2 shadow">
+                            <a href="hanoi.html">
+                                <div class = "blog-item-top">
+                                    <img src = "images/HaNoi/hanoicover.jpg" alt = "blog">
+                                    <span class = "blog-date">jun 03, 2024</span>
+                                </div>
+                            </a>
+                            <div class = "blog-item-bottom">
+                                <span>traveller | tuan dat</span>
+                                <a href="hanoi.html">Hanoi: Where Tradition Meets Modernity</a>
+                                <p class = "text">Hanoi, Vietnam's capital, is a vibrant fusion of history and modernity. Its bustling streets, rich cultural sites, and delicious street food make it a must-visit destination for travelers seeking a taste of authentic Vietnamese charm.</p>
+                            </div>
+                        </div>
+        
+                        <div class = "blog-item my-2 shadow">
+                            <a href="hcm.html">
+                                <div class = "blog-item-top">
+                                    <img src = "images/HCM/hcmcover.jpg" alt = "blog">
+                                    <span class = "blog-date">jun 03, 2024</span>
+                                </div>
+                            </a>
+                                <div class = "blog-item-bottom">
+                                    <span>traveller | duy thuc</span>
+                                    <a href = "hcm.html">Ho Chi Minh City: The Dynamic Heartbeat of Vietnam</a>
+                                    <p class = "text">Ho Chi Minh City, Vietnam's largest metropolis, is a vibrant blend of old and new. From historic landmarks to bustling markets, it offers visitors an exciting immersion into Vietnamese culture and dynamism.</p>
+                                </div>
+                        </div>
+    
+
+                        <div class = "blog-item my-2 shadow">
+                            <a href="danang.html">
+                                <div class = "blog-item-top">
+                                    <img src = "images/DaNang/danangcover.jpg" alt = "blog">
+                                    <span class = "blog-date">jun 03, 2024</span>
+                                </div>
+                            </a>
+                            <div class = "blog-item-bottom">
+                                <span>local citizen | bich diep</span>
+                                <a href = "danang.html">Da Nang: The Coastal Gem of Vietnam</a>
+                                <p class = "text">DaNang, located along the central coast of Vietnam, is a bustling city known for its pristine beaches, modern bridges, and rich cultural heritage. It serves as a gateway to the ancient town of Hoi An and the imperial city of Hue.</p>
+                            </div>
+                        </div>
+
+                        <div class = "blog-item my-2 shadow">
+                            <a href="#">
+                                <div class = "blog-item-top">
+                                    <img src = "images/HoiAn/hoiancover.jpg" alt = "blog">
+                                    <span class = "blog-date">jun 03, 2024</span>
+                                </div>
+                            </a>
+                            <div class = "blog-item-bottom">
+                                <span>local citizen | quynh anh</span>
+                                <a href = "#">Hoi An: The Ancient Trading Port</a>
+                                <p class = "text">Hoi An is a beautifully preserved ancient town that showcases a blend of different architectural styles, including Chinese, Japanese, and European influences. Famous for its lantern-lit streets, traditional crafts, and historic temples, it offers a glimpse into Vietnam's rich cultural past.</p>
+                            </div>
+                        </div>
+
+                        <div class = "blog-item my-2 shadow">
+                            <a href="#">
+                                <div class = "blog-item-top">
+                                    <img src = "images/HaLong/halongcover.jpg" alt = "blog">
+                                    <span class = "blog-date">jun 03, 2024</span>
+                                </div>
+                            </a>
+                            <div class = "blog-item-bottom">
+                                <span>local | minh hoang</span>
+                                <a href = "#">Ha Long Bay: The Majestic Bay of Legends</a>
+                                <p class = "text">HaLong Bay, a UNESCO World Heritage site, is famed for its emerald waters and thousands of towering limestone islands topped with rainforests. This natural wonder is a popular destination for cruises, offering breathtaking views and opportunities for kayaking and cave exploration.</p>
+                            </div>
+                        </div>
+
+                        <div class = "blog-item my-2 shadow">
+                            <a href="#">
+                                <div class = "blog-item-top">
+                                    <img src = "images/NhaTrang/Nt2.jpg" alt = "blog">
+                                    <span class = "blog-date">jun 03, 2024</span>
+                                </div>
+                            </a>
+                            <div class = "blog-item-bottom">
+                                <span>viewer | duc anh</span>
+                                <a href = "#">Nha Trang: The Beach Paradise</a>
+                                <p class = "text">NhaTrang, located on Vietnam's south-central coast, is a premier beach destination known for its crystal-clear waters, vibrant marine life, and luxury resorts. The city also offers numerous water sports, mud baths, and an active nightlife scene.</p>
+                            </div>
+                        </div>
+
+                        <div class = "blog-item my-2 shadow">
+                            <a href="#">
+                                <div class = "blog-item-top">
+                                    <img src = "images/Hue/huecover.jpg" alt = "blog">
+                                    <span class = "blog-date">jun 03, 2024</span>
+                                </div>
+                            </a>
+                            <div class = "blog-item-bottom">
+                                <span>government | quang huy</span>
+                                <a href = "#">Hue: The Imperial City</a>
+                                <p class = "text">Hue, situated on the banks of the Perfume River, is a historic city that served as the capital of Vietnam during the Nguyen Dynasty. It is home to the Hue Imperial City, a vast complex of palaces, temples, and gardens that reflect the grandeur of Vietnam's imperial past.</p>
+                            </div>
+                        </div>
+
+                        <div class = "blog-item my-2 shadow">
+                            <a href="#">
+                                <div class = "blog-item-top">
+                                    <img src = "images/DaLat/Đl4.jpg" alt = "blog">
+                                    <span class = "blog-date">jun 03, 2024</span>
+                                </div>
+                            </a>
+                            <div class = "blog-item-bottom">
+                                <span>traveller | thu trang</span>
+                                <a href = "#">Da Lat: The City of Eternal Spring</a>
+                                <p class = "text">DaLat, nestled in the Central Highlands of Vietnam, is renowned for its temperate climate, mist-covered valleys, and vibrant flower gardens. The city offers a romantic ambiance with its French colonial architecture and picturesque landscapes.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of blog section -->
+        
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Immerse<span>Vietnam</span>
+                    </a>
+                    <p class = "text">Always strive to bring the most worthy journeys for you!</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "hanoi.html">Hanoi City</a></li>
+                        <li><a href = "#">Ha Long Bay</a></li>
+                        <li><a href = "danang.html">Da Nang</a></li>
+                        <li><a href = "#">Nha Trang</a></li>
+                        <li><a href = "hcm.html">Ho Chi Minh City</a></li>
+                        <li><a href = "#">Phu Quoc Island</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+    </body>
+</html>
