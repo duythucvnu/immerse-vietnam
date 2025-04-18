@@ -1,6 +1,6 @@
 # ImmerseVietnam Website
 
-A static website promoting Vietnam tourism, developed as the final project for the Web Authoring and Management course (INS205301) at VNU International School, Semester 2 (2023-2024).
+A static website promoting Vietnam tourism, developed as the final project for the Web Authoring and Management course at VNU International School.
 
 ## Project Overview
 
@@ -28,4 +28,4 @@ The website features high-quality imagery, engaging content about various destin
 
 ## License
 
-This project was developed for educational purposes as part of the Web Authoring and Management course at VNU-IS.
+This project was developed for educational purposes as part of the Web Authoring and Management course at VNU International School.
