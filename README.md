@@ -19,7 +19,7 @@ The website features high-quality imagery, engaging content about various destin
     ```
 2.  **Open `index.html`:** Navigate to the project directory and open the `index.html` file in your web browser.
 
-## Demo
+## Video Demo
 <p align="center">
   <a href="https://drive.google.com/file/d/1wTeAXR58vM2i6j8jS0icAWr_vW0uK47M/view?usp=sharing">
     <img src="images/thumbnail.png" alt="Watch the Demo" width="600"/>
